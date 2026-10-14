@@ -1,0 +1,45 @@
+Aplikasi berbasis web untuk mengelola operasional kamar hotel, pencatatan tamu, proses check-in, check-out, pembayaran di meja resepsionis, hingga laporan pendapatan dan okupansi.
+
+Tujuan dan masalah bisnis
+Masalah: Pengelolaan kamar dan tamu hotel yang masih manual menyebabkan seringnya salah catat ketersediaan kamar serta lambatnya rekapitulasi data pendapatan harian dan bulanan.
+Mempercepat proses pelayanan tamu dan pencatatan reservasi di meja resepsionis
+Menghilangkan kesalahan pencatatan status ketersediaan kamar hotel
+Menyediakan rekapitulasi laporan pendapatan dan tingkat okupansi secara otomatis dan akurat
+Siapa saja penggunanya
+Resepsionis: melayani pemesanan kamar, memproses check-in dan check-out, serta mencatat pembayaran tamu
+Manajer: mengelola data master kamar dan memantau seluruh laporan operasional serta keuangan hotel
+Petugas Kebersihan: melihat daftar kamar kotor dan memperbarui status kebersihan kamar setelah dibersihkan
+Data yang dicatat
+Pengguna: nama (teks), email (email), peran (pilihan (Resepsionis, Manajer, Petugas Kebersihan)), aktif (ya/tidak), no hp (no hp), no identitas (unik), alamat (teks panjang)
+Kamar: nomor kamar (unik), tipe (pilihan: Standar, Deluxe, Suite), harga per malam (uang), status (pilihan: Tersedia, Terisi, Perawatan), status kebersihan (pilihan: Bersih, Kotor)
+Pemesanan: kode booking (unik), tamu (→ Pengguna), kamar (→ Kamar), tanggal check-in (tanggal), tanggal check-out (tanggal), total harga (uang), status (pilihan: Dipesan, Check-in, Check-out, Dibatalkan), pembuat (→ Pengguna)
+Pembayaran: pemesanan (→ Pemesanan), tanggal bayar (tanggal & jam), metode pembayaran (pilihan: Tunai, Transfer, QRIS), jumlah bayar (uang), kembalian (uang), penerima (→ Pengguna)
+Fitur utama
+Mencatat data kamar beserta tarif dan tipe kamar
+Mencatat data profil dan identitas tamu hotel
+Mencatat pemesanan kamar tamu
+Memproses check-in tamu dan mengubah status kamar menjadi terisi
+Memproses check-out tamu dan mengubah status kebersihan kamar menjadi kotor
+Mencatat transaksi pembayaran tamu beserta bukti metode pembayaran
+Memperbarui status kebersihan kamar oleh petugas kebersihan
+Menampilkan laporan tingkat keterisian kamar dan pendapatan hotel
+Alur kerja
+Resepsionis mendaftarkan data tamu dan membuat pemesanan kamar sesuai tipe kamar dan tanggal menginap; sistem membuat kode booking dengan status Dipesan.
+Resepsionis memproses check-in saat tamu tiba; status pemesanan berubah menjadi Check-in dan status kamar otomatis berubah menjadi Terisi.
+Resepsionis memproses check-out saat masa inap selesai dan menerima pembayaran dari tamu; sistem mencatat pembayaran dan mengubah status kebersihan kamar menjadi Kotor.
+Petugas Kebersihan melihat daftar kamar kotor, membersihkan ruangan, lalu memperbarui status kebersihan kamar menjadi Bersih di sistem; status kamar otomatis kembali menjadi Tersedia.
+Manajer membuka dasbor untuk memantau okupansi kamar harian dan mencetak rekapitulasi pendapatan bulanan.
+Aturan bisnis
+Kamar: nomor kamar tidak boleh ganda
+Kamar: harga per malam harus lebih dari 0
+Pengguna: no identitas tidak boleh ganda
+Pembayaran: jumlah bayar tidak boleh negatif
+Kamar: hanya Manajer yang boleh menghapus
+Laporan dan keluaran
+Laporan okupansi kamar berisi nomor kamar, tipe kamar, status keterisian, dan persentase okupansi, harian
+Laporan pendapatan hotel berisi rincian kode booking, nama tamu, metode pembayaran, dan total penerimaan, bulanan
+Laporan riwayat tamu berisi daftar tamu yang pernah menginap, kamar yang disewa, dan durasi menginap, bulanan
+Hak akses
+Resepsionis: boleh mengelola data tamu, pemesanan kamar, memproses check-in, check-out, dan mencatat transaksi pembayaran ; tidak boleh menghapus data kamar dan mengakses laporan keuangan manajerial
+Manajer: boleh mengelola data master kamar, akun pengguna, serta melihat seluruh laporan operasional dan pendapatan hotel ; tidak boleh menghapus riwayat pembayaran yang sudah diverifikasi
+Petugas Kebersihan: boleh melihat daftar kamar dan memperbarui status kebersihan kamar ; tidak boleh mencatat pemesanan kamar, memproses check-in check-out, dan mengakses data keuangan
