@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" fill="none">
+  <!-- Outer Frame Background -->
+  <rect width="1440" height="900" fill="#E8B49B"/>
+
+  <!-- Main Canvas Container (Rounded 32px) -->
+  <rect x="30" y="30" width="1380" height="840" rx="32" fill="#FAF6EE" stroke="#DEC5B5" stroke-width="1.5"/>
+
+  <!-- Header Navigation Bar -->
+  <g id="Header">
+    <!-- Brand Logo & Name -->
+    <circle cx="75" cy="75" r="20" fill="#18181B"/>
+    <path d="M68 83V67H75L80 72V83H68Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="108" y="76" font-family="'Fredoka', 'Segoe UI', sans-serif" font-weight="700" font-size="20" fill="#18181B">HotelOps</text>
+    <text x="108" y="89" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" letter-spacing="1.5" fill="#78716C">FRONT DESK &amp; PMS</text>
+
+    <!-- Navigation Pills (Center) -->
+    <rect x="490" y="55" width="460" height="42" rx="21" fill="#F3ECDF" stroke="#E5DCCE" stroke-width="1"/>
+    <!-- Active Tab: Denah Kamar -->
+    <rect x="495" y="59" width="125" height="34" rx="17" fill="#FFFFFF" filter="drop-shadow(0px 2px 4px rgba(0,0,0,0.04))"/>
+    <text x="525" y="81" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#18181B">Denah Kamar</text>
+    <!-- Other Tabs -->
+    <text x="645" y="81" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" fill="#78716C">Reservasi &amp; Kasir</text>
+    <text x="780" y="81" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" fill="#78716C">Housekeeping</text>
+    <text x="895" y="81" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" fill="#78716C">Laporan</text>
+
+    <!-- User Profile & Logout (Right) -->
+    <circle cx="1320" cy="75" r="18" fill="#F3ECDF" stroke="#E5DCCE" stroke-width="1"/>
+    <text x="1314" y="80" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#18181B">R</text>
+    <text x="1225" y="73" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#18181B">Siti Rahma</text>
+    <text x="1242" y="85" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#78716C">Resepsionis</text>
+  </g>
+
+  <line x1="30" y1="115" x2="1410" y2="115" stroke="#ECE4D5" stroke-width="1"/>
+
+  <!-- Sub-Header: Page Title & VIP Chips -->
+  <g id="SubHeader">
+    <text x="65" y="155" font-family="'Fredoka', sans-serif" font-weight="700" font-size="24" fill="#18181B">Operasional Kamar &amp; Tamu</text>
+    <text x="65" y="173" font-family="'Montserrat', sans-serif" font-weight="500" font-size="12" fill="#78716C">Pantau status kamar, kelola tamu menginap, serta kasir meja depan secara real-time.</text>
+
+    <!-- Chip 1: Dewi Lestari -->
+    <rect x="850" y="140" width="220" height="38" rx="19" fill="#FFFFFF" stroke="#ECE4D5" stroke-width="1"/>
+    <circle cx="870" cy="159" r="13" fill="#F3ECDF"/>
+    <text x="866" y="163" font-family="'Montserrat', sans-serif" font-weight="700" font-size="10" fill="#18181B">D</text>
+    <text x="890" y="154" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#18181B">Dewi Lestari</text>
+    <text x="890" y="167" font-family="'Montserrat', sans-serif" font-weight="500" font-size="9" fill="#78716C">Kamar 102 (Deluxe)</text>
+    <rect x="1005" y="148" width="55" height="22" rx="11" fill="#FDD8D5"/>
+    <text x="1014" y="163" font-family="'Montserrat', sans-serif" font-weight="800" font-size="9" fill="#991B1B">Check-in</text>
+
+    <!-- Button: + Reservasi -->
+    <rect x="1090" y="140" width="130" height="38" rx="19" fill="#18181B"/>
+    <text x="1118" y="164" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">+ Reservasi Baru</text>
+  </g>
+
+  <!-- ============================================== -->
+  <!-- LEFT COLUMN: 6 BENTO TILES + ROOM GRID (Width: 800) -->
+  <!-- ============================================== -->
+
+  <!-- Bento Section 1: Summary Bento Metrics -->
+  <g id="BentoMetrics">
+    <rect x="65" y="200" width="800" height="255" rx="24" fill="#FFFFFF" stroke="#ECE4D5" stroke-width="1"/>
+    
+    <!-- Section Title -->
+    <circle cx="88" cy="225" r="11" fill="#18181B"/>
+    <text x="108" y="230" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#18181B">Ringkasan Operasional Kamar</text>
+
+    <!-- Tile 1: Kamar Kotor (Pastel Peach #FDE8CF) -->
+    <rect x="85" y="250" width="235" height="90" rx="18" fill="#FDE8CF" stroke="#F6CAA2" stroke-width="1"/>
+    <circle cx="105" cy="272" r="4" fill="#EA580C"/>
+    <text x="115" y="275" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#7C2D12">Kamar Kotor</text>
+    <text x="105" y="310" font-family="'Fredoka', sans-serif" font-weight="700" font-size="28" fill="#7C2D12">2 Unit</text>
+    <text x="105" y="327" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#9A3412">Menunggu pembersihan</text>
+
+    <!-- Tile 2: Kamar Bersih (Pastel Sky Blue #D4E5F9) -->
+    <rect x="345" y="250" width="235" height="90" rx="18" fill="#D4E5F9" stroke="#B6D4F6" stroke-width="1"/>
+    <circle cx="365" cy="272" r="4" fill="#2563EB"/>
+    <text x="375" y="275" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#1E40AF">Kamar Bersih</text>
+    <text x="365" y="310" font-family="'Fredoka', sans-serif" font-weight="700" font-size="28" fill="#1E40AF">5 Unit</text>
+    <text x="365" y="327" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#1E40AF">Siap ditempati tamu</text>
+
+    <!-- Tile 3: Total Kamar (Pastel Lavender #E3D6F8) -->
+    <rect x="605" y="250" width="235" height="90" rx="18" fill="#E3D6F8" stroke="#CDBAF4" stroke-width="1"/>
+    <circle cx="625" cy="272" r="4" fill="#7C3AED"/>
+    <text x="635" y="275" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#5B21B6">Total Kamar</text>
+    <text x="625" y="310" font-family="'Fredoka', sans-serif" font-weight="700" font-size="28" fill="#5B21B6">8 Unit</text>
+    <text x="625" y="327" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#5B21B6">Kapasitas operasional</text>
+
+    <!-- Tile 4: Kamar Terisi (Pastel Blush Coral #FDD8D5) -->
+    <rect x="85" y="350" width="235" height="85" rx="18" fill="#FDD8D5" stroke="#F8B4AE" stroke-width="1"/>
+    <circle cx="105" cy="372" r="4" fill="#DC2626"/>
+    <text x="115" y="375" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#991B1B">Kamar Terisi</text>
+    <text x="105" y="405" font-family="'Fredoka', sans-serif" font-weight="700" font-size="26" fill="#991B1B">1 Unit</text>
+    <text x="105" y="422" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#991B1B">Tamu sedang menginap</text>
+
+    <!-- Tile 5: Perawatan (Pastel Sand #FAE8D8) -->
+    <rect x="345" y="350" width="235" height="85" rx="18" fill="#FAE8D8" stroke="#F0CAA9" stroke-width="1"/>
+    <circle cx="365" cy="372" r="4" fill="#CA8A04"/>
+    <text x="375" y="375" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#854D0E">Perawatan</text>
+    <text x="365" y="405" font-family="'Fredoka', sans-serif" font-weight="700" font-size="26" fill="#854D0E">0 Unit</text>
+    <text x="365" y="422" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#854D0E">Fasilitas dalam servis</text>
+
+    <!-- Tile 6: Okupansi Harian (Pastel Mint #D6F5E8) -->
+    <rect x="605" y="350" width="235" height="85" rx="18" fill="#D6F5E8" stroke="#A9EBD0" stroke-width="1"/>
+    <circle cx="625" cy="372" r="4" fill="#059669"/>
+    <text x="635" y="375" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#065F46">Okupansi Hari Ini</text>
+    <text x="625" y="405" font-family="'Fredoka', sans-serif" font-weight="700" font-size="26" fill="#065F46">12.5%</text>
+    <text x="625" y="422" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#065F46">Keterisian kamar hotel</text>
+  </g>
+
+  <!-- Bento Section 2: Visual Room Grid -->
+  <g id="BentoRooms">
+    <rect x="65" y="475" width="800" height="365" rx="24" fill="#FFFFFF" stroke="#ECE4D5" stroke-width="1"/>
+    
+    <circle cx="88" cy="505" r="11" fill="#18181B"/>
+    <text x="108" y="510" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#18181B">Denah Kamar Visual Interaktif</text>
+    <text x="108" y="525" font-family="'Montserrat', sans-serif" font-weight="500" font-size="11" fill="#78716C">Klik kartu kamar untuk memeriksa rincian tamu pada panel kanan.</text>
+
+    <!-- Room 101 (Tersedia - Blue) -->
+    <rect x="85" y="545" width="175" height="130" rx="16" fill="#D4E5F9" stroke="#B6D4F6" stroke-width="1.5"/>
+    <text x="100" y="573" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#1E40AF">No. 101</text>
+    <rect x="185" y="558" width="60" height="20" rx="10" fill="#FFFFFF"/>
+    <text x="195" y="572" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" fill="#1E40AF">Tersedia</text>
+    <text x="100" y="595" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#1E40AF">Standar</text>
+    <text x="100" y="612" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#1E40AF">Rp 250.000</text>
+    <text x="100" y="655" font-family="'Montserrat', sans-serif" font-weight="700" font-size="10" fill="#1E40AF">Pilih Kamar &rarr;</text>
+
+    <!-- Room 102 (Terisi - Coral Active Selection ring) -->
+    <rect x="275" y="545" width="175" height="130" rx="16" fill="#FDD8D5" stroke="#18181B" stroke-width="2.5"/>
+    <text x="290" y="573" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#991B1B">No. 102</text>
+    <rect x="385" y="558" width="50" height="20" rx="10" fill="#FFFFFF"/>
+    <text x="395" y="572" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" fill="#991B1B">Terisi</text>
+    <text x="290" y="595" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#991B1B">Deluxe</text>
+    <text x="290" y="612" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#991B1B">Rp 450.000</text>
+    <text x="290" y="635" font-family="'Montserrat', sans-serif" font-weight="700" font-size="10" fill="#18181B">Tamu: Dewi Lestari</text>
+    <text x="290" y="655" font-family="'Montserrat', sans-serif" font-weight="700" font-size="10" fill="#991B1B">Terpilih &#x2713;</text>
+
+    <!-- Room 103 (Kotor - Peach) -->
+    <rect x="465" y="545" width="175" height="130" rx="16" fill="#FDE8CF" stroke="#F6CAA2" stroke-width="1.5"/>
+    <text x="480" y="573" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#7C2D12">No. 103</text>
+    <rect x="580" y="558" width="45" height="20" rx="10" fill="#FFFFFF"/>
+    <text x="590" y="572" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" fill="#7C2D12">Kotor</text>
+    <text x="480" y="595" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#7C2D12">Suite</text>
+    <text x="480" y="612" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#7C2D12">Rp 750.000</text>
+    <text x="480" y="655" font-family="'Montserrat', sans-serif" font-weight="700" font-size="10" fill="#7C2D12">Perlu Cleaning &rarr;</text>
+
+    <!-- Room 104 (Tersedia - Blue) -->
+    <rect x="655" y="545" width="175" height="130" rx="16" fill="#D4E5F9" stroke="#B6D4F6" stroke-width="1.5"/>
+    <text x="670" y="573" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#1E40AF">No. 104</text>
+    <rect x="755" y="558" width="60" height="20" rx="10" fill="#FFFFFF"/>
+    <text x="765" y="572" font-family="'Montserrat', sans-serif" font-weight="700" font-size="9" fill="#1E40AF">Tersedia</text>
+    <text x="670" y="595" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#1E40AF">Standar</text>
+    <text x="670" y="612" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#1E40AF">Rp 250.000</text>
+    <text x="670" y="655" font-family="'Montserrat', sans-serif" font-weight="700" font-size="10" fill="#1E40AF">Pilih Kamar &rarr;</text>
+
+    <!-- Floor 2 Indicator & Cleaning Progress Bar -->
+    <rect x="85" y="695" width="745" height="120" rx="16" fill="#FAF6EE" stroke="#ECE4D5" stroke-width="1"/>
+    <text x="105" y="725" font-family="'Fredoka', sans-serif" font-weight="700" font-size="14" fill="#18181B">Status Progres Kebersihan Hari Ini</text>
+    <text x="680" y="725" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#78716C">Target: 100%</text>
+    <!-- Progress Bar -->
+    <rect x="105" y="740" width="705" height="12" rx="6" fill="#E5DCCE"/>
+    <rect x="105" y="740" width="530" height="12" rx="6" fill="#18181B"/>
+    <text x="105" y="775" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#18181B">75% Kamar Berstatus Bersih (6 dari 8 Kamar Siap Ditempati)</text>
+  </g>
+
+  <!-- ============================================== -->
+  <!-- RIGHT COLUMN: INSPECTOR PANEL (Width: 440)     -->
+  <!-- ============================================== -->
+
+  <!-- Card 1: Guest Profile Inspector -->
+  <g id="InspectorProfile">
+    <rect x="895" y="200" width="440" height="300" rx="24" fill="#FFFFFF" stroke="#ECE4D5" stroke-width="1"/>
+    
+    <!-- Top Micro Action Bar -->
+    <circle cx="925" cy="225" r="13" fill="#FAF6EE" stroke="#ECE4D5"/>
+    <circle cx="1275" cy="225" r="13" fill="#FAF6EE" stroke="#ECE4D5"/>
+    <circle cx="1310" cy="225" r="13" fill="#FAF6EE" stroke="#ECE4D5"/>
+
+    <!-- Large Circular Avatar -->
+    <circle cx="1115" cy="290" r="42" fill="#FAF6EE" stroke="#ECE4D5" stroke-width="2"/>
+    <text x="1098" y="302" font-family="'Fredoka', sans-serif" font-weight="700" font-size="28" fill="#18181B">DL</text>
+
+    <!-- Guest Name & Status -->
+    <text x="1115" y="355" text-anchor="middle" font-family="'Fredoka', sans-serif" font-weight="700" font-size="20" fill="#18181B">Dewi Lestari</text>
+    <text x="1115" y="375" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="500" font-size="12" fill="#78716C">Tamu Menginap di Kamar 102 (Deluxe)</text>
+
+    <!-- Micro Action Buttons Row -->
+    <circle cx="1065" cy="415" r="16" fill="#FAF6EE" stroke="#ECE4D5"/>
+    <text x="1061" y="420" font-size="12">&#x270E;</text>
+    <circle cx="1105" cy="415" r="16" fill="#FAF6EE" stroke="#ECE4D5"/>
+    <text x="1100" y="420" font-size="12">&#x260E;</text>
+    <circle cx="1145" cy="415" r="16" fill="#FAF6EE" stroke="#ECE4D5"/>
+    <text x="1140" y="420" font-size="12">&#x2709;</text>
+    <circle cx="1185" cy="415" r="16" fill="#18181B"/>
+    <text x="1180" y="420" font-size="14" fill="#FFFFFF" font-weight="bold">+</text>
+  </g>
+
+  <!-- Card 2: Detailed Attributes & Fast Checkout -->
+  <g id="InspectorDetails">
+    <rect x="895" y="520" width="440" height="320" rx="24" fill="#FFFFFF" stroke="#ECE4D5" stroke-width="1"/>
+    
+    <text x="920" y="555" font-family="'Fredoka', sans-serif" font-weight="700" font-size="15" fill="#18181B">Rincian Informasi Kamar &amp; Tagihan</text>
+    <line x1="920" y1="570" x2="1310" y2="570" stroke="#ECE4D5" stroke-width="1"/>
+
+    <!-- Row 1: Nomor Kamar -->
+    <text x="925" y="598" font-family="'Montserrat', sans-serif" font-weight="500" font-size="12" fill="#78716C">Nomor Kamar</text>
+    <text x="1305" y="598" text-anchor="end" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#18181B">Kamar 102</text>
+
+    <!-- Row 2: Tarif Sewa -->
+    <text x="925" y="628" font-family="'Montserrat', sans-serif" font-weight="500" font-size="12" fill="#78716C">Tarif Sewa</text>
+    <text x="1305" y="628" text-anchor="end" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#18181B">Rp 450.000 / malam</text>
+
+    <!-- Row 3: Kode Booking -->
+    <text x="925" y="658" font-family="'Montserrat', sans-serif" font-weight="500" font-size="12" fill="#78716C">Kode Booking</text>
+    <text x="1305" y="658" text-anchor="end" font-family="'Courier New', monospace" font-weight="700" font-size="12" fill="#18181B">BK-20261015-001</text>
+
+    <!-- Row 4: Total Biaya Highlight -->
+    <rect x="915" y="680" width="400" height="40" rx="12" fill="#FAF6EE" stroke="#ECE4D5" stroke-width="1"/>
+    <text x="930" y="705" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" fill="#78716C">Total Tagihan Tamu</text>
+    <text x="1300" y="706" text-anchor="end" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#18181B">Rp 450.000</text>
+
+    <!-- Action Button: Check-Out & Kasir -->
+    <rect x="915" y="745" width="400" height="46" rx="23" fill="#FDD8D5" stroke="#F8B4AE" stroke-width="1.5"/>
+    <text x="1115" y="774" text-anchor="middle" font-family="'Fredoka', sans-serif" font-weight="700" font-size="14" fill="#991B1B">Check-Out &amp; Kasir Pembayaran &rarr;</text>
+  </g>
+
+</svg>
